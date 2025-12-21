@@ -19,7 +19,9 @@ function TodoList({ todos, updateTodos }) {
   };
 
   return (
-    <ol className="space-y-3">
+    // TODO Scroll,Clear All,Sort for completed
+    <ol className="space-y-3 scroll-auto">  
+   
       {todos.map(({ id, text, isCompleted }) => (
         <li key={id} className="flex items-center group">
           <div className={`flex-1 flex items-center px-2 py-1 rounded-xl transition-all duration-300 ${
