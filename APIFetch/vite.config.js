@@ -10,9 +10,9 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'My Todo App',
-        short_name: 'Todo',
-        description: 'A beautiful glassmorphism todo app',
+        name: 'Dog and UserList',
+        short_name: 'UserList',
+        description: 'A beautiful glassmorphism Dog and userList app',
         theme_color: '#10b981', // Emerald-500 to match your UI
         icons: [
           {
